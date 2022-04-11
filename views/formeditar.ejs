@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='/stylesheet/style.css' />
+</head>
+<body>
+    <section>
+        <h1 class="centralizado">
+            <%= title %> 
+        </h1>
+    <form action="<%=action%>" method="POST">
+        
+        <p class="centralizado ">Modelo:<input type="text" name="nome" value="<%= registro.name %>" /></p>
+        <p class="centralizado ">Preço:<input type="number" step="any" name="price" value="<%= registro.price %>" /></p>
+        <p class="centralizado"><input type="submit" value="Alterar"/></p>
+    </form>
+</section>
+</body>
+
+</html>

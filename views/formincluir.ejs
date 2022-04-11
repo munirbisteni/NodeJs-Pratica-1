@@ -1,0 +1,23 @@
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="/stylesheet/style.css">
+</head>
+
+<body>
+    <section>
+    <h1  class="centralizado">
+        <%=title%>
+    </h1>
+    <a href="/produtos"  class="centralizado">Voltar para a Tabela</a>
+    <form action="./inclui" method="POST">
+        <p class="centralizado info"><label for="nome">Produto</label></p>
+        <p class="centralizado"><input type="text" name="nome" id="nome" /></p>
+        <p class="centralizado info"><label for="preco">Preço</label></p>
+        <p class="centralizado"><input type="number" step="any" name="price" id="price" /></p>
+        <p class="centralizado"><input type="submit" value="Incluir" /></p>
+    </form>
+</section>
+</body>
+
+</html>

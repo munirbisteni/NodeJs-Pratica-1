@@ -1,0 +1,58 @@
+h1 {
+    font: 44px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: rgb(13, 11, 138);
+    width: 500px;
+    margin: auto;
+    auto-align: center;
+    }
+
+    body {
+    background-color: #c7ceff;
+    font-family: Arial, verdana;
+    }
+    
+    a {
+    color: #880a0a;
+    font: 15px;
+    text-decoration: unset;
+    font-family: Arial, verdana;
+    padding: 12px;
+    
+    }
+    
+    td {
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: rgb(13, 11, 138);
+    background-color: rgb(205, 240, 205);
+    padding: 5px;
+    }
+
+    img {
+    max-width:20px;
+    max-height:20px;
+    width: auto;
+    height: auto;
+    }
+
+    section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(59,59,59,0.450);
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    margin-left: 550px;
+}
+
+    .centralizado{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info{
+        background-color: rgb(205, 240, 205);
+        
+    }
